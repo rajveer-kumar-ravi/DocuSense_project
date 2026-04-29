@@ -1,0 +1,18 @@
+[server]
+port = 3000
+address = "0.0.0.0"
+headless = true
+enableCORS = false
+enableXsrfProtection = false
+fileWatcherType = "auto"
+maxUploadSize = 30
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "dark"
+primaryColor = "#f7b955"
+backgroundColor = "#0e141b"
+secondaryBackgroundColor = "#141d28"
+textColor = "#e6edf3"
